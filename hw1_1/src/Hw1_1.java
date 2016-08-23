@@ -2,13 +2,16 @@
  * Implement countEvenNum method which receives an array of integer and return the count of even number.
  **/
 public class Hw1_1 {
-    public int countEvenNum(int[] inputs)
-    {
-        /**
-         * Your code here
-         */
-        return 0;
+    public int countEvenNum(int[] inputs) {
+        int even = 0;
+        for (int i = 0; i < inputs.length; i++) {
+            if (inputs[i] % 2 == 0) {
+                even++;
+            }
+        }
+        return even;
     }
+
 
 
     public static void main(String[] args) {
