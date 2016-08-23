@@ -12,7 +12,7 @@ public class Hw1_2 {
             sumcre+=credit[i];
         }
 
-
+//
         return sum/sumcre;
     }
 
