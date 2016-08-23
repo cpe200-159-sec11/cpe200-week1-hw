@@ -7,6 +7,9 @@ public class Hw1_1 {
         /**
          * Your code here
          */
+         
+         System.out.println("My push does not work so ...\n");
+         
         return 0;
     }
 
