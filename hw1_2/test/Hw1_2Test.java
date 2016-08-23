@@ -3,9 +3,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by pruet on 11/8/2559.
- */
 public class Hw1_2Test {
     private Hw1_2 h;
     @Before
