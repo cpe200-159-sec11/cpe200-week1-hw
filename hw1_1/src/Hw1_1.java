@@ -17,6 +17,6 @@ public class Hw1_1 {
     public static void main(String[] args) {
         Hw1_1 h = new Hw1_1();
         int[] inputs = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.printf("Number of event number is %d\n", h.countEvenNum(inputs));
+        System.out.println(String.format("Number of event number is %d\n",h.countEvenNum(inputs)));
     }
 }
