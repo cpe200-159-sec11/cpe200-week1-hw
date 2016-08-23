@@ -9,8 +9,7 @@ public class Hw1_1 {
          */
          
          System.out.println("My push does not work so ...\n");
-         System.out.println("Wawwwww");
-         
+
         return 0;
     }
 
