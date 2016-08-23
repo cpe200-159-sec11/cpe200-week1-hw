@@ -7,7 +7,18 @@ public class Hw1_2 {
         /**
          * your code here
          */
-        return 0.0f;
+        float sum=0,sum1=0,avg=0;
+        for(int i=0;i<credit.length;i++){
+            sum = sum+credit[i];
+
+            sum1 = sum1 + (credit[i]*grade[i]);
+
+
+        }
+        avg = sum1/sum;
+
+        //return 0.0f;
+        return avg;
     }
 
     public static void main(String[] args) {

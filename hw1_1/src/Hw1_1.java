@@ -7,7 +7,16 @@ public class Hw1_1 {
         /**
          * Your code here
          */
-        return 0;
+        int sum=0;
+        for(int i=0;i<inputs.length;i++){
+            if(inputs[i]%2==0){
+                sum=sum+1;
+            }
+
+        }
+
+        //return 0;
+        return sum;
     }
 
 
