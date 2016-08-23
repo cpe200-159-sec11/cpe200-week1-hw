@@ -12,7 +12,7 @@ public class Hw1_1 {
         }
         return  even;
     }
-
+//
 
     public static void main(String[] args) {
         Hw1_1 h = new Hw1_1();
