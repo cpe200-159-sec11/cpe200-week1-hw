@@ -12,7 +12,7 @@ public class Hw1_1 {
                 count++;
             }
 
-        } 
+        }
 
         /**
          * Your code here
