@@ -1,13 +1,13 @@
-/**
- * Created by pruet on 11/8/2559.
- */
 public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
-        /**
-         * your code here
-         */
-        return 0.0f;
+        float sum = 0, avg, sum2 = 0;
+        for(int i = 0;i < credit.length;i++){
+            sum += (credit[i]*grade[i]);
+            sum2 += credit[i];
+        }
+        avg = sum/sum2;
+        return avg;
     }
 
     public static void main(String[] args) {
