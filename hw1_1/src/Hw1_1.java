@@ -4,10 +4,21 @@
 public class Hw1_1 {
     public int countEvenNum(int[] inputs)
     {
+        int count=0;
+        int even=0;
+        for (int i=0;i<inputs.length;i++){
+
+            if(inputs[i]%2==0){
+                count++;
+            }
+
+        } 
+
         /**
          * Your code here
          */
-        return 0;
+        return count;
+
     }
 
 
